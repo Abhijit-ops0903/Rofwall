@@ -36,7 +36,6 @@ Pictures/
 .config/
 └── rofi-wallpaper/
     ├── wallpaper.sh
-    ├── generate-thumbs.sh
     └── theme.rasi
 ```
 
