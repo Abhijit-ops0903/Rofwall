@@ -47,25 +47,31 @@ Pictures/
    ~/Pictures/Wallpapers/Originals
    ```
 
-2. Generate thumbnails (only needed the first time or if you want to regenerate all thumbnails):
+2. Download imagemagick:
 
    ```bash
-   ~/.config/rofi-wallpaper/generate-thumbs.sh
+    sudo pacman -S imagemagick
    ```
 
-3. Make sure the `awww` daemon is running:
+3. Download awww:
+
+   ```bash
+     sudo pacman -S awww
+   ```
+
+5. Make sure the `awww` daemon is running:
 
    ```bash
    awww-daemon
    ```
 
-4. Launch the wallpaper picker:
+6. Launch the wallpaper picker:
 
    ```bash
    ~/.config/rofi-wallpaper/wallpaper.sh
    ```
 
-5. Select a wallpaper and press Enter to apply it.
+7. Select a wallpaper and press Enter to apply it.
 
 New wallpapers added to the `Originals` folder will have thumbnails generated automatically when the picker is launched.
 
