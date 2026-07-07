@@ -1,0 +1,126 @@
+/*========================================================
+  Wallpaper Picker Theme
+========================================================*/
+
+* {
+    font: "JetBrainsMono Nerd Font 12";
+
+    background:     #1e1e2e;
+    background-alt: #313244;
+
+    foreground:     #cdd6f4;
+
+    selected:       #89b4fa;
+
+    border:         #89b4fa;
+}
+
+window {
+    width: 78%;
+    height: 48%;
+
+    location: center;
+
+    border: 2px;
+    border-color: @border;
+
+    border-radius: 18px;
+
+    background-color: @background;
+}
+
+mainbox {
+    orientation: vertical;
+
+    spacing: 18px;
+
+    padding: 18px;
+
+    background-color: transparent;
+}
+
+inputbar {
+    children: [ prompt, entry ];
+
+    spacing: 12px;
+
+    padding: 14px;
+
+    border-radius: 12px;
+
+    background-color: @background-alt;
+}
+
+listview {
+
+    columns: 3;
+
+    lines: 2;
+
+    cycle: false;
+
+    dynamic: true;
+
+    layout: vertical;
+
+    spacing: 18px;
+
+    scrollbar: true;
+
+    background-color: transparent;
+}
+
+element {
+
+    orientation: vertical;
+
+    padding: 12px;
+
+    spacing: 10px;
+
+    border-radius: 12px;
+
+    background-color: transparent;
+}
+
+element-icon {
+
+    size: 320px;
+
+    border-radius: 10px;
+
+    background-color: transparent;
+}
+
+element-text {
+
+    horizontal-align: 0.5;
+
+    vertical-align: 0.5;
+
+    background-color: transparent;
+}
+
+element selected {
+
+    background-color: @background-alt;
+
+    border-radius: 12px;
+}
+
+prompt {
+    text-color: @selected;
+
+    background-color: transparent;
+}
+
+entry {
+
+    placeholder: "Search wallpapers...";
+
+    placeholder-color: #7f849c;
+
+    text-color: @foreground;
+
+    background-color: transparent;
+}
