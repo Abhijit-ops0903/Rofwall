@@ -74,6 +74,5 @@ New wallpapers added to the `Originals` folder will have thumbnails generated au
 
 Use the theme if you want.
 
---------------------------------.
 
 ## This project was designed and implemented with the assistance of AI.
