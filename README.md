@@ -4,8 +4,6 @@ A simple wallpaper picker for Hyprland using Rofi and awww.
 
 The picker displays wallpapers from a folder as a searchable gallery with image thumbnails. Selecting a wallpaper applies it immediately using `awww`.
 
-This project was designed and implemented with the assistance of AI.
-
 ## Features
 
 * Searchable wallpaper gallery
@@ -72,6 +70,10 @@ Pictures/
 
 New wallpapers added to the `Originals` folder will have thumbnails generated automatically when the picker is launched.
 
-## License
+## Theme
 
-This project is released under the MIT License.
+Use the theme if you want.
+
+--------------------------------.
+
+## This project was designed and implemented with the assistance of AI.
